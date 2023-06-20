@@ -7,11 +7,11 @@ print("\n******************* Calculadora em Python *******************")
 
 valor1 = float(input('Digite o primeiro valor: '))
 valor2 = float(input('Digite o segundo valor: '))
-operacao = input('Descreva a operação desejada: soma, subtração, multiplicação ou divisão.')
+operacao = input('Descreva a operação desejada: soma, subtração, multiplicação ou divisão.\n')
 
 if operacao == 'soma':
     resultado = valor1 + valor2
-    print('O resultado da soma é de ',resultado)
+    print('O resultado da soma é de',resultado)
 elif operacao == 'subtração':
     resultado = valor1 - valor2
     print('O resultado da subtração é de ',resultado)
