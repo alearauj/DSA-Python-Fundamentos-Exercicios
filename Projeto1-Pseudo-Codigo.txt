@@ -1,0 +1,20 @@
+# Pseudo Código de um jogo da forca
+
+1. Criar uma lista de palavras
+
+2. Escolher uma palavra aleatória
+
+3. Criar uma lista vazia para armazenar as letras adivinhadas
+
+4. Definir o número máximo de tentativas permitidas
+
+5. Enquanto o número de tentativas não atingir o limite máximo:
+
+    a. Mostrar a palavra como uma série de underscores, com as letras adivinhadas preenchidas nos espaços corretos
+    b. Pedir uma letra para o usuário
+    c. Verificar se a letra está na palavra
+    d. Se o usuário acertar, imprimir a letra certa no lugar do underscore
+    e. Se o usuário errar a letra, reduzir o número de tentativas e imprimir que ele errou e que tem uma chance a menos
+    f. Continuar pedindo uma letra para o usuário até que ele acerte a palavra toda ou que o número de tentativas seja igual a 0
+    g. Se todas as letras foram adivinhadas, exibir a mensagem "Você venceu!"
+    h. Se o número de tentativas restantes chegar a zero, exibir a mensagem "Você perdeu. A palavra era [palavra escolhida]" e encerrar o jogo.
