@@ -1,3 +1,5 @@
+# Um pseudocódigo é uma forma de representação de algoritmos que utiliza uma linguagem informal e simplificada, que se aproxima da linguagem natural, para descrever passo a passo o fluxo de operações necessárias para resolver um problema. O pseudocódigo não é uma linguagem de programação real, mas sim uma forma de descrever de forma clara e organizada como um programa ou algoritmo deve funcionar.
+
 # Pseudo Código de um jogo da forca
 
 1. Criar uma lista de palavras
